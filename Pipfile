@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+cmake = "*"
+dlib = {file = "../../../Downloads/dlib-19.24.2/dlib-19.24.2"}
+face-recognition = "*"
+opencv-python = "*"
+cvzone = "*"
+customtkinter = "*"
+tkintermapview = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.5"
